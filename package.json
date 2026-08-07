@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "WhatsApp Automation API",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "wppconnect",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^2.2.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
