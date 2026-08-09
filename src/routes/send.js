@@ -19,7 +19,8 @@ router.post("/", async (req, res) => {
 
         await client.sendText(
             chatId,
-            message
+            message,
+            { linkPreview: false }
         );
 
         res.json({
